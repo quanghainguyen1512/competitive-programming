@@ -1,8 +1,5 @@
-# khi làm và submit thì em bị lỗi ở test case 26 như link sau
-# link submission: http://codeforces.com/contest/723/submission/40685958
-# tuy nhiên, ý tưởng và triển khai khá giống với bài sửa trên lớp của anh Phúc
-# sau khi chạy thử test case bị lỗi trên laptop, python báo lỗi đệ quy hàm visitOcean quá nhiều lần
-# hiện tại em không biết tối ưu như thế nào, mong anh/chị TA giúp đỡ
+#http://codeforces.com/contest/723/D
+
 import sys
 
 sys.setrecursionlimit(1000000)

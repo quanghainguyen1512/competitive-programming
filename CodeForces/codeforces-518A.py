@@ -1,6 +1,4 @@
-# ý tưởng: đối xử chuỗi như một số có nhiều chữ số
-# em thực hiện tăng chuỗi nhỏ hơn (là s) lên một đơn vị, nếu bằng với chuỗi t thì không tìm được
-# nếu khác thì chuỗi vừa tạo chính là kết quả hợp lệ
+#https://codeforces.com/problemset/problem/518/A
 
 def solve (s, t):
     index = len(s) - 1

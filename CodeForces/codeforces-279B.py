@@ -1,3 +1,5 @@
+#https://codeforces.com/problemset/problem/279/B
+
 def solve(n, t, a):
     time = 0
     res = 0
@@ -13,9 +15,11 @@ def solve(n, t, a):
         res = max(res, i - j + 1)
     return res
 
-n, t = map(int, input().split())
-a = list(map(int, input().split()))
+def main():
+    n, t = map(int, input().split())
+    a = list(map(int, input().split()))
 
-print(solve(n, t, a))
+    print(solve(n, t, a))
 
-# O(n)
+if __name__ == '__main__':
+    main()
