@@ -39,7 +39,3 @@ class Solution:
             return self.bin_search(sublist[mid + 1:], target, anchor=mid+1+anchor)
         else:
             return self.bin_search(sublist[:mid], target, anchor=anchor)
-sol = Solution()
-if __name__ == "__main__":
-    a = [7,1,2,3,4,5,6]
-    print(sol.search(a, 4))
